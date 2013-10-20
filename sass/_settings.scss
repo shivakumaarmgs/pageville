@@ -816,11 +816,11 @@ $default-float: left;
 
 // We use these to control the caption styles
 
- $orbit-container-bg: #111 20% ;
- $orbit-caption-bg: rgba(0,0,0,0.1);
+ $orbit-container-bg: #fff;//rgba(0, 0, 0, 0.3) ;
+ $orbit-caption-bg: rgba(0,0,0, 0.1);
  $orbit-caption-font-color: #333 ;
  $orbit-caption-font-size: emCalc(19);
- $orbit-caption-position: "bottom";    // Supported values: "bottom", "under"
+ $orbit-caption-position: "under";    // Supported values: "bottom", "under"
 // $orbit-caption-padding: emCalc(10,14);
  $orbit-caption-height: auto;
 

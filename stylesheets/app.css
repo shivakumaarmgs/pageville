@@ -5471,7 +5471,7 @@ form.custom .custom.disabled {
   overflow: hidden;
   width: 100%;
   position: relative;
-  background: #111111 20%;
+  background: white;
 }
 /* line 126, C:/Ruby200/lib/ruby/gems/2.0.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_orbit.scss */
 .orbit-container .orbit-slides-container {
@@ -5498,8 +5498,7 @@ form.custom .custom.disabled {
 }
 /* line 154, C:/Ruby200/lib/ruby/gems/2.0.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_orbit.scss */
 .orbit-container .orbit-slides-container > * .orbit-caption {
-  position: absolute;
-  bottom: 0;
+  position: relative;
   background-color: rgba(0, 0, 0, 0.1);
   color: #333333;
   width: 100%;
@@ -7302,5 +7301,3 @@ a.th {
 .f-dropdown.large {
   max-width: 800px;
 }
-
-
