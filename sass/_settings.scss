@@ -63,7 +63,7 @@ $em-base: 16px !default;
 
 $default-float: left;
 
- $body-bg: #fff;
+ $body-bg: #e8e8e8;
 // $body-font-color: #222;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
@@ -150,7 +150,7 @@ $default-float: left;
 //
 
 // $row-width: em-calc(1000);
-// $column-gutter: em-calc(30);
+ $column-gutter: em-calc(30);
 // $total-columns: 12;
 
 //
@@ -231,7 +231,7 @@ $default-float: left;
 
 // $hr-border-width: 1px;
 // $hr-border-style: solid;
-// $hr-border-color: #ddd;
+ $hr-border-color: #ccc;
 // $hr-margin: em-calc(20);
 
 // Style lists
@@ -820,7 +820,7 @@ $default-float: left;
  $orbit-caption-bg: rgba(0,0,0, 0.1);
  $orbit-caption-font-color: #333 ;
  $orbit-caption-font-size: emCalc(19);
- $orbit-caption-position: "under";    // Supported values: "bottom", "under"
+ $orbit-caption-position: "bottom";    // Supported values: "bottom", "under"
 // $orbit-caption-padding: emCalc(10,14);
  $orbit-caption-height: auto;
 
@@ -896,9 +896,9 @@ $default-float: left;
 
 // We use these to control the background and border styles
 
-// $panel-bg: darken(#fff, 5%);
+ $panel-bg: lighten($body-bg, 7%);
 // $panel-border-style: solid;
-// $panel-border-size: 1px;
+ $panel-border-size: 0px;
 
 // We use this % to control how much we darken things on hover
 
@@ -1261,7 +1261,7 @@ $default-float: left;
 // Height and margin
 
  $topbar-height: 45px;
- $topbar-margin-bottom: 2px;
+ $topbar-margin-bottom: 0px;
 
 // Control Input height for top bar
 
@@ -1283,14 +1283,14 @@ $default-float: left;
 
 // Set the link colors and styles for top-level nav
 
- $topbar-link-color: #e44d26;
+ $topbar-link-color: #1b7ff0;//#7d7b7b;
  $topbar-link-color-hover: #fff;
  $topbar-link-color-active: #fff;
-// $topbar-link-weight: bold;
- $topbar-link-font-size: em-calc(17.5);
+ $topbar-link-weight: normal;
+ $topbar-link-font-size: em-calc(15);
 // $topbar-link-hover-lightness: -30%; // Darken by 30%
-$topbar-link-bg-hover: #2585f1;//darken($topbar-bg-color, 15%);
-$topbar-link-bg-active: #2585f1;//darken($topbar-bg-color, 15%);
+$topbar-link-bg-hover: darken($topbar-bg-color, 15%);
+$topbar-link-bg-active: darken($topbar-bg-color, 15%);
 
 // $topbar-dropdown-label-color: #555;
 // $topbar-dropdown-label-text-transform: uppercase;
